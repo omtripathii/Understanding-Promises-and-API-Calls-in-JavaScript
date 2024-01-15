@@ -1,16 +1,4 @@
-# terminals
-terminals:
-  - 'cd client && yarn && yarn start'
-  - 'cd server && yarn && yarn dev'
-  - 'echo "We''re ready"'
-
-# other config
-tabs:
-  - 'README.md'
-  - 'index.js'
-
-# Custom script to open code editor
-open-editor: 'code README.md index.js'
-
-run-button: clear && node $$file
-browser-link: https://wikipedia.org
+playground-view: terminal-editor-browser
+tabs: ['README.md','index.js']
+terminals: ['echo one']
+run-button: node $$file
