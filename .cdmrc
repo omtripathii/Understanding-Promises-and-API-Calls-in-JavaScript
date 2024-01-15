@@ -1,3 +1,2 @@
-tabs: ['index.js', 'README.md']
-terminals: ['echo one']
+tabs: ['README.md','index.js']
 run-button: node $$file
