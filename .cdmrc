@@ -1,13 +1,2 @@
-# Set default view
-playground-view: terminal-editor-browser
-
-# Specify default tabs and terminals
-tabs:
-  - 'README.md'
-  - 'index.js'
-
-terminals:
-  - 'echo "This is the default terminal"'
-
-# Specify default run command
-run-button: 'node $$file'
+tabs: ['index.js', 'README.md']
+terminals: ['static-server -p 1337 --no-cache']
